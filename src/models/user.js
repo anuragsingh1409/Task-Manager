@@ -1,7 +1,7 @@
 const mongoose = require('mongoose')
 const validator = require('validator')
 const bcrypt  = require('bcryptjs')
-const { default: isEmail } = require('validator/lib/isemail')
+// const { default: isEmail } = require('validator/lib/isemail')
 const jwt = require('jsonwebtoken')
 const Task = require('./task')
 
